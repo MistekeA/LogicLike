@@ -1,0 +1,41 @@
+.select-wrapper{
+    width: 264px;
+    min-width: 264px;
+    max-width: 264px;
+    border:1px, solid, #CFCFE4;
+    border-radius: 18px;
+    margin:20px 50px 0 50px ;
+    position: relative;
+    padding:11px;
+    height: min-content;
+}
+
+.custom_item{
+  cursor: pointer;
+  display: flex;
+  flex-wrap: nowrap;
+
+    font-weight: 800;
+    size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    padding: 12px;
+}
+.custom_item_current{
+  background-color: #5FBF77;
+  color:white;
+  border-radius: 12px;
+}
+
+.custom-select{
+  &__control{
+    width: 200px;
+    height: 30px;
+    &--menu-is-open{
+      background-color: #5FBF77 !important;
+    }
+    &__indicator-separator{
+      display: none !important;
+    }
+  }
+}
